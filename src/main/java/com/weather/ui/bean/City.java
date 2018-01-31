@@ -4,6 +4,7 @@ public class City {
 	private String id;
 	private String name;
 	private String country;
+	private Coord coord;
 	
 	public String getId() {
 		return id;
@@ -29,5 +30,5 @@ public class City {
 	public void setCoord(Coord coord) {
 		this.coord = coord;
 	}
-	private Coord coord;
+	
 }
